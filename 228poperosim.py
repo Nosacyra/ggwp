@@ -10,7 +10,11 @@ mc = minecraft.Minecraft.create()
 mcDrawing = MinecraftDrawing(mc)
 
 def main():
-    pass
+    mc.setBlocks(1, 1, 1, 30, 1, 20, block.WOOD)
+    mc.setBlocks(1, 1, 0, 30, 20, 0, block.WOOD)   
+
+
+
 
 
 
